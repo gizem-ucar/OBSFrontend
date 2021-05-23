@@ -10,7 +10,6 @@ import { Sinav } from '../models/sinav';
   providedIn: 'root'
 })
 export class SinavService {
-
   constructor(private httpClient :HttpClient) { }
 
   apiUrl = 'https://localhost:44390/api/sinavlar/'

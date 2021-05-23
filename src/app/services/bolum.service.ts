@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Bolum } from '../models/bolumModels';
+import { Bolum } from '../models/bolum';
 import { BolumDetayDto } from '../models/detayModels/bolumDetayDto';
 import { ListResponseModel } from '../models/responseModels/listResponseModel';
 import { ResponseModel } from '../models/responseModels/ResponseModel';
@@ -10,7 +10,6 @@ import { ResponseModel } from '../models/responseModels/ResponseModel';
   providedIn: 'root'
 })
 export class BolumService {
-
   constructor(private httpClient :HttpClient) { }
 
   apiUrl = 'https://localhost:44390/api/bolumler/'

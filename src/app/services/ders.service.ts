@@ -10,7 +10,6 @@ import { ResponseModel } from '../models/responseModels/ResponseModel';
   providedIn: 'root'
 })
 export class DersService {
-
   constructor(private httpClient :HttpClient) { }
 
   apiUrl = 'https://localhost:44390/api/dersler/'
