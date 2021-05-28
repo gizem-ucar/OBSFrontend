@@ -1,8 +1,9 @@
 export interface OgrenciDetayDto{
+    id:number
     isim : string
     soyad : string
     email :string
-    aders :string
+    adres :string
     kayitTarihi:Date
     telefonNumarasi:string
     unvanAdi:string
@@ -22,4 +23,5 @@ export interface OgrenciDetayDto{
     danismanEMail:string
     danismanTelefonNumarasi:string
     danismanUnvanAdi:string 
+    fotografYolu:string
 }
