@@ -14,7 +14,7 @@ main {
   height: -webkit-fill-available;
   max-height: 100vh;
   position: fixed;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 .b-example-divider {
